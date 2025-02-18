@@ -1,0 +1,48 @@
+.card{
+    height: 600px;
+    background-color: antiquewhite;
+    width: 400px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 20px;
+    overflow: hidden;
+    position: relative;
+
+
+    img{
+        width: 100%;
+        height: 450px;
+    }
+    p{
+        color: rgb(172, 95, 0);
+        font-size: 17px;
+        padding:5px;
+        font-family:Georgia, 'Times New Roman', Times, serif
+    }
+
+    button{
+      width: 50%;
+      position:absolute;
+      bottom: 0;
+      height:30px;
+      border: unset;
+      border-top: 2px solid rgba(0,0,0,0.3);
+      cursor: pointer;
+     
+      background-color: antiquewhite;
+
+
+      &:first-child{
+        left:0;
+      }
+      &:last-child{
+        right:0;
+        border-left: 2px solid rgba(0,0,0,0.3);
+      }
+    
+      &:hover{
+        background-color: rgb(216, 216, 216);
+      }
+        
+        
+    }
+}
