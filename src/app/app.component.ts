@@ -17,7 +17,7 @@ hamsterArray = [
   'Hallo, mein Name ist Alyona und ich bin hier, um neue Freunde zu finden!',
   'Freut mich, dass ihr hier seid!',
   'Ich esse gerne Kekse! Mein name ist Alyona',
-  'Ich gehe gern auf Toilette'
+  'Ich Teste gerne neue Software'
 ];
 
 hamsterbild = [
