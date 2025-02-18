@@ -14,10 +14,11 @@ import { CommonModule } from '@angular/common';
 })
 export class AppComponent{
 hamsterArray = [
-  'Hallo, mein Name ist Alyona und ich bin hier, um neue Freunde zu finden!',
+  'Hallo, mein Name ist Fabian und ich bin hier, um neue Freunde zu finden!',
   'Freut mich, dass ihr hier seid!',
-  'Ich esse gerne Kekse! Mein name ist Alyona',
-  'Ich Teste gerne neue Software'
+  'My name is Alyona and i like cakes!',
+  'Ich Teste gerne neue Software',
+  'Ich bin hier der Schönste Hamster!'
 ];
 
 hamsterbild = [
